@@ -1,0 +1,26 @@
+{
+  "short_name": "DeveloperCodeBase",
+  "name": "Developer Code Base",
+  "icons": [
+    {
+      "src": "devlogo.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "devlogo.png",
+      "type": "image/png",
+      "sizes": "200x200"
+    },
+    {
+      "src": "devlogo.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#112233",
+  "background_color": "#112233"
+}

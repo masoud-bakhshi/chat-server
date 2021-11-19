@@ -1,0 +1,35 @@
+{
+  "name": "chatserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Masoud Bakhshi",
+  "license": "ISC",
+  "dependencies": {
+    "@date-io/jalaali": "^2.10.6",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.6",
+    "express-session": "^1.17.1",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.15",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "pm2": "^4.5.5",
+    "socket.io": "^2.2.0",
+    "socket.io-pm2": "^1.0.0",
+    "socket.io-redis": "^6.1.0",
+    "socketio-jwt": "^4.6.2",
+    "yarn": "^1.22.10"
+  }
+}
