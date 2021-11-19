@@ -82,6 +82,7 @@ export default function FisrtChatPage() {
           >
             <CloseIcon />
           </IconButton>
+
           <Typography variant="h6" className={classes.title}>
             Create Chat
           </Typography>
@@ -103,6 +104,9 @@ export default function FisrtChatPage() {
         >
           {!nextPage ? (
             <div>
+              <Typography variant="h4" className={classes.title}>
+                DevelopercodeBase
+              </Typography>
               <Typography
                 variant="h6"
                 className={classes.type}
