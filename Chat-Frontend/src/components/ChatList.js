@@ -187,11 +187,9 @@ export default function ChatList({ payload }) {
       {!progress && (
         <div>
           <div>
-            <div style={{ direction: "rtl" }} className={classes.typeSection}>
+            <div style={{ direction: "ltr" }} className={classes.typeSection}>
               <Typography variant="overline" display="block" gutterBottom>
-                *. برای گفت و گو با کاربران دیگر کافیست برروی آواتار کاربران
-                کلیک کرده و گزینه چت را انتخاب نمایید و یا ایمیل کاربر را در
-                نوار ابزار بالا جست و جو نمایید
+                *. For startting chat with someone, you need to click on avatar.
               </Typography>
             </div>
             <Grid container component={Paper} className={classes.chatSection}>

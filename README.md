@@ -1,16 +1,18 @@
 # This web app created by Masoud Bakhshi
 
+This a chat server with react js, node js and MongoDb, MySql for database.
+
 # React js
 
 just visit my webApp http://devcodebase.com
 
 # Using
 
-React js ,Node js, material-ui, sucket
+React js ,Node js, material-ui, sucket, MongoDb, MySql
 
 # How to run
 
-In this repository i upload both ui and server code and db server
+In this repository i upload both ui and server code, db server and Socket Server
 
 # Description
 
@@ -22,4 +24,4 @@ you need install node js , mysql ,mongodb
 
 # picture
 
-![chat-server](https://github.com/masoud-bakhshi/cryptocurrency/blob/main/crypto.jpg)
+![chat-server](https://github.com/masoud-bakhshi/chat-server/blob/main/chat-Server.png)

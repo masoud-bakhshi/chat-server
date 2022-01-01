@@ -324,7 +324,7 @@ function DialogChat({ open, setOpen, name, secondUser, room }) {
                 <ListItemText
                   primary={secondUser.split("@", 1)}
                   className={classes.font3}
-                  secondary={<Button onClick={handleClose}>خروج</Button>}
+                  secondary={<Button onClick={handleClose}>Close</Button>}
                 ></ListItemText>
               </ListItem>
             </List>
@@ -390,7 +390,7 @@ function DialogChat({ open, setOpen, name, secondUser, room }) {
         </DialogActions>
         <DialogActions style={{ justifyContent: "left" }}>
           <Button autoFocus onClick={handleClose} color="primary">
-            خروج
+            Close
           </Button>
           {/* <Button onClick={handleClose} color="primary">
             (this is a demo chat)
