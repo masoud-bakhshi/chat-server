@@ -97,9 +97,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "auto",
   },
 }));
-const AddressUrl = process.env.REACT_APP_ADDRESS;
 
-// const ChatPort = process.env.REACT_APP_CHATPORT;
 const ENDPOINT = "http://" + "localhost" + ":" + "5000" + "/";
 let socket;
 

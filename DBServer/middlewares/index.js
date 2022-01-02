@@ -15,13 +15,7 @@ module.exports = function middlewares(app) {
 
   app.use(
     cors({
-      origin: [
-        process.env.ORIGINADDRESS1,
-        process.env.ORIGINADDRESS2,
-        process.env.ORIGINADDRESS3,
-        process.env.ORIGINADDRESS4,
-        process.env.ORIGINADDRESS5,
-      ],
+      origin: ["http://localhost:3000", "http://127.0.0.1:3000"],
       methods: ["GET", "POST", "DELETE"],
       credentials: true,
     })

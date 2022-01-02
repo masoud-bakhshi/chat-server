@@ -1,10 +1,13 @@
 const mongoose = require("mongoose");
 
 mongoose
-  .connect(process.env.MONGOCONF, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect(
+    "mongodb://localhost:27017/mydata?readPreference=primary&appname=MongoDB%20Compass&ssl=false",
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    }
+  )
   .catch((e) => {
     console.error("Connection error", e.message);
   });
